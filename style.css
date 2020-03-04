@@ -292,7 +292,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #fff;
+  background: black;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote,
@@ -593,3 +593,29 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+/*Global */
+/* About Page */
+.page {
+  margin: 0 auto;
+  padding: 9%; }
+
+.site-branding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-branding .logo {
+    margin: 0 auto;
+    width: 60%; }
+
+.site-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .site-footer .site-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .site-footer .site-info .main-navigation {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
