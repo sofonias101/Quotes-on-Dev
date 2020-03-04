@@ -1,11 +1,12 @@
 .site-footer {
- display: flex;
+  
   .site-info {
     display: flex;
+    justify-content: flex-end;
+     width: 100%;
+     
+     .main-navigation {
 
-    .main-navigation {
-     justify-content: flex-end;
-
-    } 
-  } 
+     }
+   }
 }

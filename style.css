@@ -424,9 +424,7 @@ a {
 /* Menus */
 .main-navigation {
   clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
+  display: block; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -607,15 +605,11 @@ object {
     margin: 0 auto;
     width: 60%; }
 
-.site-footer {
+.site-footer .site-info {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-  .site-footer .site-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .site-footer .site-info .main-navigation {
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end; }
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%; }
