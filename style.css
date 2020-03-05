@@ -613,3 +613,5 @@ object {
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%; }
+  .site-footer .site-info .main-navigation .page_item {
+    padding-right: 2rem; }
