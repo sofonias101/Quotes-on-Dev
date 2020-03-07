@@ -9,13 +9,9 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h2 class="entry-title"> , </h2>' ); ?>
+		<?php the_title( sprintf( '<h3 class="entry-title"><a  class="links" href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php get_the_title(); ?>
-		<?php get_post_permalink(); ?>
-		
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
- 

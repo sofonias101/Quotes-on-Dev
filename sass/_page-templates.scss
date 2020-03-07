@@ -6,10 +6,161 @@
 
 /* Submit a Quote Page */
 /*Global */
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+a {
+  color: #0c0;
 
+}
+.entry-title {
+  color: white;
+}
 /* About Page */
 .page {
-
+  
   margin: 0 auto;
   padding: 9%;
+}
+p {
+  color: white;
+}
+ 
+/* Archives Page */
+.page-id-205 {
+
+  .post-archives {
+    display: table;
+    width: 100%;
+    ul {
+      display: flex;
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+      flex-wrap: wrap;
+      margin-bottom: .5rem;
+      margin-right: 1.125rem;
+      .links{
+       font-weight: normal;
+       text-decoration: none;
+       color: #0c0;
+       padding-left: 20px;
+       line-height: 0.1px;
+
+      }
+    }
+  }
+
+  .category-archives {
+    display: table;
+    width: 100%;
+    ul {
+      display: flex;
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+      flex-wrap: wrap;
+      margin-bottom: .5rem;
+      margin-right: 1.125rem;
+      .list-cat-items {
+        a {
+         text-decoration: none;
+         color: #0c0;
+         padding-left: 20px;
+         line-height: 0.1px;
+         font-weight: normal;
+        }
+      }
+    }
+  }
+
+  .tags-archive {
+    display: table;
+    width: 100%;
+    ul {
+      display: flex;
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+      flex-wrap: wrap;
+      margin-bottom: .5rem;
+      margin-right: 1.125rem;
+      
+        a {
+         text-decoration: none;
+         color: #0c0;
+         padding-left: 20px;
+         font-weight: normal;
+         font-size: 18.72px;
+        }
+      
+    }
+  }
+}
+
+/* Single quote pages */
+.single-post {
+  margin: 0 auto;
+  padding: 9%;
+  .post {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .entry-header {
+      margin: 0 auto;
+      .entry-content {
+        font-size: 3.3rem;
+        font-weight: none;
+      }
+     .entry-title {
+      font-size: 18px;
+     }
+    }
+  }
+}
+
+/*Home page*/
+.home {
+  margin: 0 auto;
+  padding: 9%;
+  .post {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .entry-header {
+      width: 100%;
+      margin: 0 auto;
+      .entry-content {
+        font-size: 3.3rem;
+        font-weight: none;
+      }
+      .entry-title {
+        display: inline;
+        width: 100%;
+        font-size: 18px;
+        align-content: flex-start;
+      }
+    }
+  }
+  .get-new-quote {
+    display: flex;
+    margin: 0 auto;
+    color: #0c0;
+    background-color:#222 ;
+    border: 2px solid #0c0;    
+    border-radius: 3px;
+    line-height: 1;
+    padding: .75rem 2.25rem;
+    font-size: 1.5rem;
+  }
+  .site-footer {
+    padding-top: 5.5rem;
+  }
+  .source  {
+  display: inline;
+  height: 100%;
+  }
 }

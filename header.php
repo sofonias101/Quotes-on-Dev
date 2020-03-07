@@ -22,7 +22,7 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
-					 <img  class="logo" src=<?php echo  get_template_directory_uri() . '/assets/qod-logo.svg'; ?> >
+					<a class="logo" href="http://localhost:8888/Quotes-on-Dev/"> <img  src=<?php echo  get_template_directory_uri() . '/assets/qod-logo.svg'; ?> > </a>
 					<h1 class="site-title screen-reader-text">
 					 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> 
 					</a>
@@ -32,4 +32,3 @@
 			
 			</header><!-- #masthead -->
 
-			<div id="content" class="site-content">
