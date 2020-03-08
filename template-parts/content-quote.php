@@ -22,6 +22,4 @@
 
 	</div><!-- .entry-header -->
 </article><!-- #post-## -->
-	<div class="entry-content">
-	</div><!-- .entry-content -->
 </article><!-- #post-## -->
