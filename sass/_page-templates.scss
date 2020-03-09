@@ -9,6 +9,9 @@
 h1 {
   color: white;
 }
+p {
+   color: white;
+}
 h2 {
   color: white;
 }
@@ -20,19 +23,32 @@ a {
   color: white;
 }
 /* About Page */
-.page {
-  
+.page-id-7 {
   margin: 0 auto;
   padding: 9%;
-}
-p {
-  color: white;
-}
+  flex-direction: row;
+
+
 .post-7 {
   a {
     color: #0c0;
   
   }
+}
+.fa-quote-right {
+  color: #0c0;
+  font-size: 5rem;
+  order: 3;
+}
+.entry-content{
+  order: 2;
+}
+.fa-quote-left {
+  color: #0c0;
+  font-size: 5rem;
+  order: 1;
+
+}
 }
 /* Archives Page */
 .page-id-205 {
@@ -138,6 +154,7 @@ p {
     .entry-header {
       width: 100%;
       margin: 0 auto;
+      padding-bottom: 8rem;
       .entry-content {
         font-size: 3.3rem;
         font-weight: none;
@@ -198,7 +215,7 @@ padding: 9%;
     border: 2px solid #0c0;
   }
   .search-submit {
-    background-color: black;
+    background-color: #222;
     box-shadow: none;
     border: none;
     padding-top: 2rem;
@@ -209,4 +226,38 @@ padding: 9%;
     color: #0c0;
   }
 }
+}
+/*submit Quote*/
+.page-id-207{
+  .submit-form {
+    color:white;
+  }
+  .author-field {
+    background-color: transparent;
+    border: 2px solid #0c0;    
+  }
+  .quote-field {
+    background-color: transparent;
+    border: 2px solid #0c0;    
+
+  }
+  .reference-field{
+    background-color: transparent;
+    border: 2px solid #0c0;    
+
+  }
+  .url-field {
+    background-color: transparent;
+    border: 2px solid #0c0;    
+
+  }
+  .form-submit {
+    border: 2px solid #0c0;    
+    margin-top: 2rem;
+    padding: .75rem 2.25rem;
+    background-color: transparent;
+    text-shadow:none;
+    box-shadow: none;
+    color: white;
+  }
 }

@@ -291,7 +291,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: black;
+  background: #222;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote,
@@ -594,6 +594,9 @@ object {
 h1 {
   color: white; }
 
+p {
+  color: white; }
+
 h2 {
   color: white; }
 
@@ -604,15 +607,31 @@ a {
   color: white; }
 
 /* About Page */
-.page {
+.page-id-7 {
   margin: 0 auto;
-  padding: 9%; }
-
-p {
-  color: white; }
-
-.post-7 a {
-  color: #0c0; }
+  padding: 9%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .page-id-7 .post-7 a {
+    color: #0c0; }
+  .page-id-7 .fa-quote-right {
+    color: #0c0;
+    font-size: 5rem;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; }
+  .page-id-7 .entry-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  .page-id-7 .fa-quote-left {
+    color: #0c0;
+    font-size: 5rem;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
 
 /* Archives Page */
 .page-id-205 .post-archives {
@@ -714,7 +733,8 @@ p {
     height: 100%; }
     .home .post .entry-header {
       width: 100%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-bottom: 8rem; }
       .home .post .entry-header .entry-content {
         font-size: 3.3rem;
         font-weight: none; }
@@ -767,7 +787,7 @@ p {
       background-color: transparent;
       border: 2px solid #0c0; }
     .error404 .not-found .search-submit {
-      background-color: black;
+      background-color: #222;
       -webkit-box-shadow: none;
               box-shadow: none;
       border: none;
@@ -776,6 +796,36 @@ p {
       font-size: 1.6rem;
       text-shadow: none;
       color: #0c0; }
+
+/*submit Quote*/
+.page-id-207 .submit-form {
+  color: white; }
+
+.page-id-207 .author-field {
+  background-color: transparent;
+  border: 2px solid #0c0; }
+
+.page-id-207 .quote-field {
+  background-color: transparent;
+  border: 2px solid #0c0; }
+
+.page-id-207 .reference-field {
+  background-color: transparent;
+  border: 2px solid #0c0; }
+
+.page-id-207 .url-field {
+  background-color: transparent;
+  border: 2px solid #0c0; }
+
+.page-id-207 .form-submit {
+  border: 2px solid #0c0;
+  margin-top: 2rem;
+  padding: .75rem 2.25rem;
+  background-color: transparent;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white; }
 
 .site-branding {
   display: -webkit-box;
