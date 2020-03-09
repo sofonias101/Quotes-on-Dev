@@ -16,8 +16,9 @@
 		
 			<div class="entry-content">
 				<?php the_content(); ?>
+				<p> This site is heavily inspired by Chris Coyier’s <a href="https://quotesondesign.com/">Quotes on Design.</a> </p>
+
 			</div><!-- .entry-content -->
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 </article><!-- #post-## -->

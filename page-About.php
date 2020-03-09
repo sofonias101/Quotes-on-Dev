@@ -12,11 +12,11 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content', 'quote' ); ?>
+				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
 			<?php endwhile; // End of the loop. ?>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<?php get_searchform(); ?>
 
 <?php get_footer(); ?>
