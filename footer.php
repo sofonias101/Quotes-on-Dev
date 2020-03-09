@@ -17,7 +17,7 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>					
 
 				</nav><!-- #site-navigation -->
-					<p>Brought to you by<a href="https://redacademy.com/vancouver/">RED Academy</a> </p>
+					<p>Brought to you by<a href="https://redacademy.com/vancouver/" >  RED Academy</a> </p>
 
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->

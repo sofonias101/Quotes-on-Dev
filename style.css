@@ -612,6 +612,9 @@ a {
 p {
   color: white; }
 
+.post-7 a {
+  color: #0c0; }
+
 /* Archives Page */
 .page-id-205 .post-archives {
   display: table;
@@ -740,6 +743,18 @@ p {
     display: inline;
     height: 100%; }
 
+/*page 404*/
+.not-found {
+  display: block;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 9%;
+  width: 100%; }
+  .not-found .page-header {
+    width: 100%; }
+  .not-found .page-content {
+    width: 100%; }
+
 .site-branding {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -759,5 +774,8 @@ p {
       -ms-flex-align: center;
           align-items: center;
   width: 100%; }
+  .site-footer .site-info a {
+    text-decoration: none;
+    color: #0c0; }
   .site-footer .site-info .main-navigation .page_item {
     padding-right: 2rem; }

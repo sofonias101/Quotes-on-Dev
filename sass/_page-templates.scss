@@ -28,7 +28,12 @@ a {
 p {
   color: white;
 }
- 
+.post-7 {
+  a {
+    color: #0c0;
+  
+  }
+}
 /* Archives Page */
 .page-id-205 {
 
@@ -162,5 +167,20 @@ p {
   .source  {
   display: inline;
   height: 100%;
+  }
+}
+
+/*page 404*/
+.not-found{
+  display: block;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 9%;;
+  width: 100%;
+  .page-header {
+    width: 100%;
+  }
+  .page-content {
+    width: 100%;
   }
 }

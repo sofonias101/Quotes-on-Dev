@@ -46,6 +46,7 @@
     }).done(function (data) {
       window.location.href = data.link;
     })
+    console.log('test2')
       .fail(function () {
         alert('Quote not submited. Please try again.');
       });
