@@ -20,7 +20,7 @@ get_header(); ?>
 			foreach ( $rands_posts as $post ) : setup_postdata( $post ); ?>
 			<?php get_template_part( 'template-parts/content', 'quote' ); ?>
 		<?php endforeach; wp_reset_postdata(); ?>
-			<button class="get-new-quote">Show me Another</button> 
+			<button class="new-quote">Show me Another</button> 
     <!-- End of the loop. -->
 
 		</main><!-- #main -->

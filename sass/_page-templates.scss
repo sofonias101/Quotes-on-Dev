@@ -51,8 +51,12 @@ a {
 }
 }
 /* Archives Page */
-.page-id-205 {
-
+.page {
+  .site-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+  }
   .post-archives {
     display: table;
     width: 100%;
@@ -72,6 +76,7 @@ a {
        line-height: 0.1px;
 
       }
+      
     }
   }
 
@@ -107,17 +112,18 @@ a {
       margin-left: 0;
       padding-left: 0;
       flex-wrap: wrap;
-      margin-bottom: .5rem;
+      margin-bottom: .8rem;
       margin-right: 1.125rem;
-      
+      font-size: 18.72px;
+  
         a {
-         text-decoration: none;
-         color: #0c0;
-         padding-left: 20px;
-         font-weight: normal;
-         font-size: 18.72px;
-        }
-      
+        text-decoration: none;
+        color: #0c0;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        line-height: .3px;
+        font-weight: 400;
+      }
     }
   }
 }
@@ -167,7 +173,7 @@ a {
       }
     }
   }
-  .get-new-quote {
+  .new-quote {
     display: flex;
     margin: 0 auto;
     color: #0c0;
@@ -229,35 +235,72 @@ padding: 9%;
 }
 /*submit Quote*/
 .page-id-207{
-  .submit-form {
-    color:white;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  textarea {
+  background-color: #222222;
+  color: #fff;
+  border: 2px solid #00cc00;
+  border-radius: 3px; }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  textarea:focus {
+    color: #fff; 
   }
-  .author-field {
-    background-color: transparent;
-    border: 2px solid #0c0;    
-  }
-  .quote-field {
-    background-color: transparent;
-    border: 2px solid #0c0;    
 
-  }
-  .reference-field{
-    background-color: transparent;
-    border: 2px solid #0c0;    
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"] {
+  padding: 3px; }
 
-  }
-  .url-field {
-    background-color: transparent;
-    border: 2px solid #0c0;    
+  textarea {
+  padding-left: 3px;
+  width: 70%; 
+}
 
+
+  .submit-form-wrapper form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+   flex-direction: column; 
   }
-  .form-submit {
-    border: 2px solid #0c0;    
+    .submit-form-wrapper form input {
+      width: 40%; 
+    }
+    .submit-form-wrapper form label {
+      margin: 1rem 0; 
+      color: white;
+    }
+  
+  .submit-form-wrapper input[type="submit"] {
+    font-size: 1rem;
     margin-top: 2rem;
-    padding: .75rem 2.25rem;
-    background-color: transparent;
-    text-shadow:none;
-    box-shadow: none;
-    color: white;
+    width: 20%; 
+    color: #0c0;
+    background-color:#222 ;
+    border: 2px solid #0c0;    
+    border-radius: 3px;
+    line-height: 1;
+    font-size: 1.5rem;
+    box-shadow:none;
+    text-shadow: none;
+    padding: .75rem 2.25rem; 
   }
 }

@@ -1,5 +1,5 @@
 (function ($) {
-  $('.get-new-quote').on('click', function (event) {
+  $('.new-quote').on('click', function (event) {
 
     event.preventDefault();
     $.ajax({
@@ -15,7 +15,6 @@
       let link = data[0].slug;
       let post_content = data[0].content.rendered;
       history.pushState(null, null, link);
-      console.log('test');
 
       $('.entry-title').text(author);
       $('.entry-content').html(post_content);
@@ -23,7 +22,7 @@
     });
   });
 
-  document.addEventListener('wpcf7mailsent', function (submit) {
+  document.addEventListener('submit', function (submit) {
     submit.preventDefault();
 
     let newQuote = {
@@ -46,11 +45,12 @@
     }).done(function (data) {
       window.location.href = data.link;
     })
-    console.log('test2')
       .fail(function () {
         alert('Quote not submited. Please try again.');
       });
 
   }, false);
+
+
 
 })(jQuery);
